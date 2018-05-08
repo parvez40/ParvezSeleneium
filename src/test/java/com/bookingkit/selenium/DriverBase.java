@@ -1,7 +1,8 @@
-package com.lazerycode.selenium;
+package com.bookingkit.selenium;
 
-import com.lazerycode.selenium.config.DriverFactory;
-import com.lazerycode.selenium.listeners.ScreenshotListener;
+import com.bookingkit.selenium.listeners.ScreenshotListener;
+import com.bookingkit.selenium.config.DriverFactory;
+
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
